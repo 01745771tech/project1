@@ -15,9 +15,7 @@
 }
 .me {
     display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    justify-content: center;
 }
 .info {
     padding: 50px;
