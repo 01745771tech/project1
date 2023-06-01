@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Dream Home Survey</title>
+    <link rel="icon" type="image/png" href="img/letter-h.png">
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body id="home">
+    <h1></h1>
+    <p></p>
+    <form>
+        <fieldset class="person">
+            <label for="name" id="name-label">Name</label>
+             <input id="name" name="name" type="text" required placeholder="Enter your name">
+              <br>
+            <label for="email" id="email-label">Email</label>
+             <input id="email" name="email" type="email" required placeholder="Enter your email" required>
+              <br>
+            <label for="number" id="number-label">Age (Optional)</label>
+             <input id="number" name="number" min="1" max="100" required placeholder="Age" type="number">
+        </fieldset>
+        <fieldset class="select">
+            <p>Which type of architecture you perfer for your home?</p>
+            <label for="dropdown">
+                <select id="dropdown" name="dropdown">
+                   <option reuqired value="">Select an option</optoin>
+                    <option value="1">Cape cod</option>
+                    <option value="2">Victorian</option>
+                    <option value="3">Colonial</option>
+                    <option value="4">Ranch</option>
+                    <option value="5">Cabin</option>
+                    <option value="6">Mediterranean</option>
+                    <option value="7">Modern</option>
+                    <option value="8">Contemporary</option>
+                    <option value="9">Farmhouse</option>
+                </Select>
+            </label>
+        </fieldset>
+        <fieldset class="text">
+            <p>What is consider a good locaton for your home?</p>
+            <textarea rows="3" cols="25" placeholder="City, boondocks, farmtown, etc...."></textarea>
+            <br>
+            <p>How many bedrooms & bathrooms?</p>
+            <textarea rows="3" cols="25" placeholder="Enter amount of rooms here..."></textarea>
+            <br>
+            <p>Amount of acres you want to own?</p>
+            <textarea rows="3" cols="25" placeholder="Enter amount of Acres here..."></textarea>
+        </fieldset>
+        <fieldset class="check">
+            <p>Type of features you want in your home?</p>
+            <label for="Appliance">
+                <input id="Appliance" name="Appliance" type="checkbox" value="1">Appliance</input>
+            </label>
+            <br>
+            <label for="Laundry Room">
+                <input id="Laundry Room" name="Laundry Room" type="checkbox" value="2">Laundry Room</input>
+            </label>
+            <br>
+            <label for="Exterior Lights">
+                <input id="Exterior Lights" name="Exterior Lights" type="checkbox" value="3">Exterior Lights</input>
+            </label>
+            <br>
+            <label for="Patio">
+                <input id="Patio" name="Patio" type="checkbox" value="4">Patio</input>
+            </label>
+            <br>
+            <label for="Basement"> 
+                <input id="Basement" name="Basement" type="checkbox" value="5">Basement</input>
+            </label>
+            <br>
+            <label for="Gas Heating">
+                <input id="Gas Heating" name="Gas Heating" type="checkbox" value="6">Gas Heating</input>
+            </label>
+            <br>
+            <label for="Oil Heating">
+                <input id="Oil Heating" name="Oil Heating" type="checkbox" value="7">Oil Heating</input>
+            </label>
+            <br>
+            <label for="Ceiling Fan">
+                <input id="Ceiling Fan" name="Ceiling Fan" type="checkbox" value="8">Ceiling Fan</input>
+            </label>
+            <br>
+            <label for="Fireplace">
+                <input id="Fireplace" name="Fireplace" type="checkbox" value="9">Fireplace</input>
+            </label>
+            <br>
+            <label for="Front Porch">
+                <input id="Front Porch" name="Front Porch" type="checkbox" value="10">Front Porch</input>
+            </label>
+            <br>
+            <label for="Central Air">
+                <input id="Central Air" name="Central Air" type="checkbox" value="11">Central Air</input>
+            </label>
+            <br>
+            <label for="Gas Stove">
+                <input id="Gas Stove" name="Gas Stove" type="checkbox" value="12">Gas Stove</input>
+            </label>
+            <br>
+            <label for="Electrical Stove">
+                <input id="Electrical Stove" name="Electrical Stove" type="checkbox" value="13">Electrical Stove</input>
+            </label>
+        </fieldset>
+        <fieldset class="Comment">
+            <p>Any Comments or Sugeestions?</p>
+            <textarea rows="3" cols="25" placeholder="enter your comment here..."></textarea>
+        </fieldset>
+        <input class="submit" type="submit" id="submit">
+        <div class="information-section">
+            <a href="aboutme.html">ABOUT</a>
+            <a href="https://www.linkedin.com/in/hakeemmarsh/">
+                <img src="img/linkedin.jpg" style="width:42px;height:42px;">
+            </a>
+        </div>
+        <footer>
+            <p>Copyright 2023 by Hakeem Marsh. All Rights Reserved.</p>
+        </footer>
+    </form>
+</body>
+</html>
