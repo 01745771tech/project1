@@ -33,3 +33,7 @@
 .info a:hover {
     background-color: tan;
   }
+.about p {
+    text-align: left;
+    word-spacing: 1px;
+}
