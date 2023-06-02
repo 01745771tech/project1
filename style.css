@@ -2,6 +2,10 @@
 background-image: url("../img/architecturaldesign.jpg");
 }
 
+.submit {
+    margin: auto;
+}
+
 .information {
     text-align: right;
 }
