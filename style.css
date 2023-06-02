@@ -1,3 +1,7 @@
+#home {
+
+}
+
 #about {
     background-image: url("../img/arch.jpg");
     background-repeat: no-repeat;
@@ -6,12 +10,14 @@
     padding-bottom: 300px;
     margin: auto;
 }
+
 .about {
     padding: 50px;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
 }
+
 .me {
     display: flex;
     justify-content: center;
@@ -21,15 +27,18 @@
         }
       }
 }
+
 .info {
     padding: 50px;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
 }
+
 .info a {
     color: white;
 }
+
 .info a:hover {
     background-color: tan;
   }
