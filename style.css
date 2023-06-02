@@ -1,5 +1,35 @@
 #home {
-background-image: url("../img/architecturaldesign.jpg");
+    background-image: url("../img/architecturaldesign.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 70px;
+    margin: auto;
+}
+
+textarea {
+    max-width: 100%;
+    width: 100%;
+    max-height: 300px;
+    height: 50px;
+}
+
+.select, .text, .check {
+    font-size: medium;
+    color: aliceblue;
+    background-color: rgb(81, 81, 156);
+    padding: 15px;
+    margin: auto;
+    border-style: hidden;
+    position: relative;
+    width: auto;
+    opacity: 0.9;
+}
+
+.comment {
+    border-style: hidden;
+    background-image: url("../img/architecturaldesign2.jpg");
+    margin: auto;
+    position: relative;
 }
 
 .submit {
@@ -9,8 +39,9 @@ background-image: url("../img/architecturaldesign.jpg");
     padding: 15px;
     margin: auto;
     border-style: hidden;
-    width: 100%;
     position: relative;
+    width: 100%;
+    opacity: 0.9;
 }
 
 .information {
