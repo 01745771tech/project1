@@ -1,8 +1,9 @@
 #home {
 background-image: url("../img/architecturaldesign.jpg");
 }
-.information a {
-    position: right;
+
+.information {
+    text-align: right;
 }
 
 footer {
