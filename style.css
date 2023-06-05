@@ -6,14 +6,6 @@
     margin: auto;
 }
 
-.person {
-    font-size: large;
-    border-style: hidden;
-    background-image: url("../img/architecturaldesign1.jpg");
-    margin: auto;
-
-}
-
 textarea {
     max-width: 100%;
     width: 100%;
@@ -21,7 +13,7 @@ textarea {
     height: 50px;
 }
 
-.select, .text, .check {
+.select, .text, .check, .person {
     font-size: medium;
     color: aliceblue;
     background-color: rgb(81, 81, 156);
