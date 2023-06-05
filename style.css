@@ -32,7 +32,7 @@ textarea {
     margin: auto;
 }
 
-.submit {
+#submit {
     font-size: large;
     color: aliceblue;
     background-color: rgb(81, 81, 156);
