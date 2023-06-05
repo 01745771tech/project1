@@ -6,6 +6,20 @@
     margin: auto;
 }
 
+#header {
+    color:aliceblue;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#reason {
+    color:aliceblue;
+    font-size: large;
+    text-align: center;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 textarea {
     max-width: 100%;
     width: 100%;
