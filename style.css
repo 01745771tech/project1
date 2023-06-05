@@ -47,6 +47,9 @@ textarea {
 .information {
     text-align: right;
 }
+.information a {
+    color: white;
+}
 
 footer {
     padding: 10px;
