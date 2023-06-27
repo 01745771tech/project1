@@ -1,68 +1,27 @@
 #home {
-    background-image: url("../img/architecturaldesign1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 70px;
-    margin: auto;
+    background-image: url("../img/webdesign.jpg");
 }
 
-#header {
+#header, #name {
     color:aliceblue;
     text-align: center;
-    text-decoration-line: underline;
 }
 
-#reason {
+#info {
     color:aliceblue;
     font-size: large;
     text-align: center;
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:  10px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-textarea {
-    max-width: 100%;
-    width: 100%;
-    max-height: 300px;
-    height: 50px;
+#links {
+    text-align: center;
 }
 
-.select, .text, .check, .person {
-    font-size: medium;
-    color: aliceblue;
-    background-color: rgb(81, 81, 156);
-    padding: 15px;
-    margin: auto;
-    border-style: hidden;
-    position: relative;
-    width: auto;
-    opacity: 0.9;
-}
-
-.comment {
-    font-size: large;
-    border-style: hidden;
-    background-image: url("../img/architecturaldesign2.jpg");
-    margin: auto;
-}
-
-#submit {
-    font-size: large;
-    color: aliceblue;
-    background-color: rgb(81, 81, 156);
-    padding: 15px;
-    margin: auto;
-    position: relative;
-    width: 100%;
-    opacity: 0.9;
-    border-style: hidden;
-}
-
-.information {
-    text-align: right;
-}
-
-.information a {
+#links a {
     color: white;
 }
 
