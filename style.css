@@ -20,14 +20,13 @@
 }
 
 
-#title {
+#company {
     color:aliceblue;
     text-align: center;
     font-size:xx-large;
     font-weight: bolder;
+    letter-spacing: 3px;
 }
-
-
 
 #experience {
     color:aliceblue;
