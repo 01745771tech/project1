@@ -35,6 +35,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding:  10px;
     background: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-size: large;
 }
 
 #links {
