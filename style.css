@@ -67,6 +67,8 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: contain;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
 }
 
 .about {
@@ -107,5 +109,6 @@ footer {
   }
 .about p {
     text-align: left;
-    word-spacing: 1px;
+    word-spacing: 5px;
+    letter-spacing: 4px;
 }
