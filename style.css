@@ -5,12 +5,21 @@
     background-position: contain;
 }
 
-#header, #name {
+#header {
+    text-align: left;
     color:aliceblue;
-    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
 }
 
 #info {
+    color:aliceblue;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+
+#experience {
     color:aliceblue;
     font-size: large;
     text-align: center;
