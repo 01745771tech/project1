@@ -52,7 +52,7 @@
 .links a:hover {
     background-color: lightblue;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 15px 50px;
   }
 
 footer {
@@ -98,12 +98,12 @@ footer {
     color: white;
     word-spacing: 3px;
     letter-spacing: 3px;
-    padding: 2px;
+    padding: 10px;
 }
 
 .info a:hover {
     background-color: lightblue;
-    border-radius: 15px; 
+    border-radius: 15px 50px;
   }
 .about p {
     text-align: left;
