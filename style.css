@@ -1,18 +1,18 @@
-#home {
+.homepage {
     background-image: url("../img/webdesign.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: contain;
 }
 
-#name {
+.name {
     text-align: left;
     color:aliceblue;
     font-weight: lighter;
     font-size: xx-large;
 }
 
-#position {
+.position {
     color:aliceblue;
     text-align: left;
     font-size: medium;
@@ -20,7 +20,7 @@
 }
 
 
-#company {
+.company {
     color:aliceblue;
     text-align: center;
     font-size:xx-large;
@@ -28,7 +28,7 @@
     letter-spacing: 3px;
 }
 
-#experience {
+.experience {
     color:aliceblue;
     font-size: large;
     text-align: center;
@@ -40,14 +40,20 @@
     font-size: large;
 }
 
-#links {
+.links {
     text-align: center;
     word-spacing: 10px;
 }
 
-#links a {
+.links a {
     color: white;
 }
+
+.links a:hover {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 15px;
+  }
 
 footer {
     padding: 15px;
@@ -56,7 +62,7 @@ footer {
     background: rgba(0, 0, 0, 0.5);
 }
 
-#about {
+.me {
     background-image: url("../img/webdesign2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,7 +76,7 @@ footer {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.me {
+.hakeem {
     display: flex;
     justify-content: center;
     @media only screen and (max-width: 480px) {
@@ -88,11 +94,16 @@ footer {
 }
 
 .info a {
+    text-align: center;
     color: white;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    padding: 2px;
 }
 
 .info a:hover {
-    background-color: tan;
+    background-color: lightblue;
+    border-radius: 15px; 
   }
 .about p {
     text-align: left;
