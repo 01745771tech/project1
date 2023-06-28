@@ -54,8 +54,8 @@
     border-radius: 15px 50px;
   }
 
-footer {
-    padding: 15px;
+.links {
+    padding: 2px;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.5);
@@ -110,4 +110,26 @@ footer {
     text-align: left;
     word-spacing: 5px;
     letter-spacing: 4px;
+}
+
+#head {
+    text-align: left;
+}
+.jobtitle {
+    text-align: left;
+}
+.bio {
+    text-align: left;
+}
+.jobs {
+    text-align: right;
+}
+.skills {
+    text-align: left;
+}
+.cert {
+    text-align: right;
+}
+.avenue {
+    text-align: center;
 }
