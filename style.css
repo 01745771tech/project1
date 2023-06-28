@@ -119,14 +119,24 @@
     background-position: absolute;
 }
 
+.body {
+    background: rgba(0, 0, 0, 0.5);
+}
+
 #head {
     text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 .jobtitle {
     text-align: left;
+    font-weight: bold;
+}
+#personal {
+    text-align: left;
 }
 .bio {
-    text-align: right;
+   text-align: right;
 }
 .jobs {
     text-align: right;
