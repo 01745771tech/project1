@@ -61,6 +61,8 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
+/* About Me Page */
+
 .me {
     background-image: url("../img/webdesign2.jpg");
     background-size: cover;
@@ -118,6 +120,8 @@ body {
     background-repeat: no-repeat;
     background-position: absolute;
 }
+
+/* Resume Page */
 
 .resume {
     width: 60%;
