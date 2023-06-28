@@ -114,6 +114,8 @@
     letter-spacing: 4px;
 }
 
+/* Resume Page */
+
 body {
     background-image: url("../img/resume3.jpg");
     background-size: 100% 100%;
@@ -121,14 +123,13 @@ body {
     background-position: absolute;
 }
 
-/* Resume Page */
-
 .resume {
+    box-sizing: border-box;
     background-color: white;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 60px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .body {
@@ -138,6 +139,7 @@ body {
 
 #head {
     text-align: left;
+    margin: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
@@ -158,6 +160,12 @@ body {
     text-align: left;
 }
 .cert {
+    text-align: right;
+}
+.school {
+    text-align: right;
+}
+.hobbies {
     text-align: right;
 }
 .avenue {
