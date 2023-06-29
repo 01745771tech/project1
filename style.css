@@ -148,8 +148,8 @@ body {
     text-align: left;
     font-weight: bold;
 }
-#personal {
-    text-align: left;
+#contactinfo {
+    padding-left: 0px;
 }
 .bio {
    text-align: right;
