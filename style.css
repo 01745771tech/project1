@@ -148,11 +148,11 @@ body {
     text-align: left;
     font-weight: bold;
 }
+.bio {
+    /* */
+ }
 #contactinfo {
     padding-left: 0px;
-}
-.bio {
-   text-align: right;
 }
 .jobs {
     text-align: right;
@@ -167,6 +167,9 @@ body {
     text-align: right;
 }
 .hobbies {
+    text-align: right;
+}
+#hobbydetail {
     text-align: right;
 }
 .avenue {
