@@ -132,10 +132,34 @@ html {
     padding: 50px;
     width: 50%;
 }
-#resumename {
+#personresume {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
+}
+.divider1 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+.profile {
+    text-align: center;
+    font-size: large;
+}
+.divider2 {
+    border-bottom: 1px solid #888989;
+  margin: 2px 0;
+}
+.divider3 {
+    border-bottom: 1px solid #888989;
+  margin: 2px 0;
+}
+.contact {
+    text-align: center;
+    font-size: large;
+}
+.divider4 {
+    border-bottom: 1px solid #888989;
+  margin: 2px 0;
 }
 .jobtitle {
     text-align: left;
