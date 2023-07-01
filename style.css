@@ -127,20 +127,20 @@ html {
 .resumedetails {
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(43, 118, 179);
     margin: 10px auto;
     padding: 50px;
     width: 50%;
 }
 #resumename {
     text-align: left;
-    margin: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
 .jobtitle {
     text-align: left;
     font-weight: bold;
+    font-size: larger;
 }
 #contact {
     padding-left: 0px;
@@ -159,6 +159,7 @@ html {
     grid-column-gap: 5px;
     list-style-type: none;
     letter-spacing: 1px;
+    font-size: small;
 }
 .cert {
     
