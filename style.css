@@ -122,16 +122,12 @@ html {
 /* Resume Page */
 
 .resume {
-    background-image: url("../img/resume3.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: absolute;
+    background-color: rgb(144, 174, 209);
 }
 .resumedetails {
-    box-sizing: border-box;
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
-    border: 3px solid rgb(56, 67, 184);
+    border: 3px solid rgb(0, 0, 0);
     margin: 10px auto;
     padding: 50px;
     width: 50%;
