@@ -137,44 +137,28 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
-.divider1 {
-    border-bottom: 1px solid #888989;
-    margin: 2px 0;
+ul {
+    list-style: none;
+}
+#jobtitle {
+    font-size: medium;
+    font-weight: bolder;
 }
 .profile {
     text-align: center;
     font-size: large;
 }
+.divider1 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
 .divider2 {
     border-bottom: 1px solid #888989;
-  margin: 2px 0;
-}
-.divider3 {
-    border-bottom: 1px solid #888989;
-  margin: 2px 0;
-}
-.contact {
-    text-align: center;
-    font-size: large;
-}
-.divider4 {
-    border-bottom: 1px solid #888989;
-  margin: 2px 0;
-}
-.jobtitle {
-    text-align: left;
-    font-weight: bold;
-    font-size: larger;
-}
-#contact {
-    padding-left: 0px;
-    direction: rtl;
-}
-.jobs {
-    
+    margin: 2px 0;
 }
 .skills {
-    
+    text-align: center;
+    font-size: large;
 }
 .ulskills {
     display: grid;
@@ -185,14 +169,65 @@ html {
     letter-spacing: 1px;
     font-size: small;
 }
+.divider3 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+.divider4 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+.jobs {
+    text-align: center;
+    font-size: large;
+}
+.divider5 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+.divider6 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
 .cert {
-    
+    text-align: center;
+    font-size: large;
+}
+.divider7 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+.divider8 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
 }
 .school {
-    
+    text-align: center;
+    font-size: large;
+}
+.divider9 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+.divider10 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
 }
 .hobbies {
-    
+    text-align: center;
+    font-size: large;
+}
+.divider11 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+.divider12 {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+.divider13 {
+    border-bottom: 1px solid #888989;
+    margin: 25px 0;
 }
 .avenue {
     text-align: center;
