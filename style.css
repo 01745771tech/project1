@@ -143,21 +143,22 @@ body {
 }
 #contact {
     padding-left: 0px;
+    direction: rtl;
 }
 .jobs {
-    text-align: right;
+    
 }
 .skills {
-    text-align: left;
+    
 }
 .cert {
-    text-align: right;
+    
 }
 .school {
-    text-align: right;
+    
 }
 .hobbies {
-    text-align: right;
+    
 }
 .avenue {
     text-align: center;
